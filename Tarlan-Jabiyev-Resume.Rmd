@@ -1,0 +1,172 @@
+---
+name: Tarlan Jabiyev
+position: "Data Scientist"
+profilepic: "TJprofile.jpg"
+phone: +994 77 739 33 36
+email: "terlancebiyev944@gmail.com"
+linkedin: tarlan-jabiyev-68553a16a
+github: TarlanJabiyev
+headcolor: 990000 
+aboutme: Highly skilled, advanced proficiency in all aspects of R. Professional Data Scientist with strong educational background who can apply predictive modeling, data processing, and machine learning algorithms. Excellent understanding of statistics, research and analytics tools for effective analyses of data.
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(glue)
+```
+
+# WORK EXPERIENCE
+
+```{r}
+tribble(
+    ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~jobType,
+    "Data Science Manager", "Salahaldin International Schools", "May", 2022, "Present", NA, "New Cairo - Egypt", "full-time",
+    "Head of School of Data Science", "Taskilled", "July", 2022, "Present", NA, "Baku - Azerbaijan", "remote",
+    "Data Scientist", "PASHA Bank OJSC", "Jan", 2019, "May", 2022, "Baku - Azerbaijan", "full-time",
+    "Instructor of R programming", "Data Science Academy", "Jan", 2020, "May", 2022, "Baku - Azerbaijan", "part-time",
+    "Instructor of Data Science with R", "QSS Analytics", "Nov", 2017, "Apr", 2022, "Baku - Azerbaijan", "part-time"
+) %>% 
+  detailed_entries(
+    with = title,
+    what = unit %>% paste0(" · ",jobType),
+    when = glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+```
+
+# PROFESSIONAL SKILLS
+
+```{r}
+tribble(
+     ~detail, ~degree, 
+    "Proficient level in R programming language", 
+    "Data Analysis, Data Visualization, Data Wrangling, Machine Learning, Deep Learning, Web Application with Shiny, Model Deployment",
+    
+    "Proficient level in h2o in R Studio", 
+    "'h2o' is an Automatic Machine Learning tool - 
+    automates feature engineering, feature selection, model building, visualization, and interpretability",
+    
+    "Proficient level in shiny in R Studio",
+    "makes it easy to built interactive web applications directly in R and deploy models developed in R",
+    
+    "Advanced level in Python",
+    "Numpy, Pandas, Scikit-learn, Keras, Tensorflow",
+    
+    "Average knowledge of other Data Analysis programs",
+    "Excel, SQL, SPSS, SPSS Modeler, Power BI",
+    
+    "LANGUAGES", "|| Azerbaijan:  Native || Turkish:  C1-C2 || English:  B2-C1 || Russian:  A2 || Arabic:  A2 ||"
+) %>% 
+  detailed_entries(with = detail, what = degree)
+```
+
+# CERTIFICATIONS
+
+```{r}
+tribble(
+    ~title, ~where, ~credential,
+    "Professional Certificate in Data Science",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 5f9948908da3491db0acda1ae79a41ab",
+    "Professional Certificate in Data Science",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://credentials.edx.org/credentials/5f9948908da3491db0acda1ae79a41ab/",
+    
+    "Data Science: Capstone",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 079803d12232498f988c9cc16f4676e4",
+    "Data Science: Capstone",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/079803d12232498f988c9cc16f4676e4",
+    
+    "Data Science: Machine Learning",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 2f34d6c1f8284d918b89ea1ed6650a95",
+    "Data Science: Machine Learning",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/2f34d6c1f8284d918b89ea1ed6650a95",
+    
+    "Data Science: Linear Regression",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 2f3b450a07384157b401300201b04f64",
+    "Data Science: Linear Regression",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/2f3b450a07384157b401300201b04f64",
+    
+    "Data Science: Inference and Modeling",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 2bbfbc7fbbda4142af51f8d254247ef6",
+    "Data Science: Inference and Modeling",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/2bbfbc7fbbda4142af51f8d254247ef6",
+    
+    "Data Science: Probability",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 6f29a93a732c41d0a4c1cdddbac630ee",
+    "Data Science: Probability",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/6f29a93a732c41d0a4c1cdddbac630ee",
+    
+    "Data Science: Wrangling",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: a8631dd126ac450596beab68b0f39619",
+    "Data Science: Wrangling",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/a8631dd126ac450596beab68b0f39619",
+    
+    "Data Science: Visualization",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 2ecdea4e7e8a49538e22d1b497381c29",
+    "Data Science: Visualization",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/2ecdea4e7e8a49538e22d1b497381c29",
+    
+    "Data Science: R Basics",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential ID: 47ad18420b754c749e0504f542a5e4aa",
+    "Data Science: R Basics",
+    "HarvardX - An Online Learning Initiative by Harvard University through edX", 
+    "Credential URL: https://courses.edx.org/certificates/47ad18420b754c749e0504f542a5e4aa",
+    
+    "DS4B 102-R: Shiny Web Applications ",
+    "Business Science", 
+    "Credential ID: cert_y2hhf64r"
+) %>% 
+  detailed_entries(with = title, what = where, why = credential)
+```
+
+# EDUCATION
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "MBA, Data Analytics", "2020-22", "UNEC", "Baku, Azerbaijan",
+  "Data Science International Summer School", "2018", "Academia de Studii Economice din București", "Predeal, Romania",
+  "Bachelor of Industrial Engineering", "2014-19", "Baku Engineering University", "Baku, Azerbaijan"
+) %>% 
+  detailed_entries(with = Degree, 
+                   when = Year, 
+                   what = Institution, 
+                   where = Where)
+```
+
+# PROFESSIONAL REFERENCES
+
+```{r}
+tribble(
+  ~ name, ~ detail,
+  "Yashar Ahmadov · Simulation Data Scientist @ Amazon", 
+  "Linkedin: https://www.linkedin.com/in/yashar-ahmadov/",
+  
+  "Carlos A. Iglesias · Full Professor @ Universidad Politécnica de Madrid",
+  "Linkedin: https://www.linkedin.com/in/cif2cif/",
+
+  "Etibar Hüseynli · Chief Data Scientist, Founder @ QSS Analytics & Data Science Academy",
+  "Linkedin: https://www.linkedin.com/in/etibar-h%C3%BCseynli/"
+) %>% 
+  detailed_entries(what = name, 
+                   why = detail)
+```
